@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Signup for MyBlog
+{% endblock %}
+
+{% block content %}
+    <h2>Signup to MyBlog</h2>
+    <div class="container mt-4">
+      <div class="row mb-md-3 justify-content-center">
+        <div class="col-md-6 p-3 border border-light border-round">
+            <form action="" method="post">
+                <p>Username: <input class="form-control" type=text name=username></p>
+                <p>Password: <input class="form-control" type=password name=password></p>
+                <p><input class="btn btn-primary" type=submit value=Signup></p>
+            </form>
+        </div>
+      </div>
+    </div>
+{% endblock %}
